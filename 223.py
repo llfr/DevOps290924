@@ -5,3 +5,6 @@ result = response.json()
 expected = "Alice"
 actual = result[0]["name"]
 assert actual == expected
+
+
+#TODO : test commit to trigger Jenkins Poll SCM
